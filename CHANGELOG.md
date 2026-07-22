@@ -8,6 +8,18 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [2.6.0] - 2026-07-22
+
+### Changed
+
+- Migrated the VS Code extension release flow from local `release-it` to Release Please.
+- Automated extension Release PR generation, changelog updates, version bumps, marketplace publishing, GitHub Release asset updates, and DingTalk notification in one workflow.
+- Isolated the VS Code extension release flow from the npm package Changesets release flow.
+
+### Fixed
+
+- Cleaned extension logo assets.
+
 ## [2.5.0] - 2026-05-12
 
 ### Changed
